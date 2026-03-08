@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     delta_birth_9m_pct   R-squared:                       0.984
+Model:                            OLS   Adj. R-squared:                  0.983
+Method:                 Least Squares   F-statistic:                     5847.
+Date:                Mon, 09 Mar 2026   Prob (F-statistic):           3.50e-89
+Time:                        02:21:38   Log-Likelihood:                -8.7364
+No. Observations:                 100   AIC:                             21.47
+Df Residuals:                      98   BIC:                             26.68
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          0.2178      0.046      4.772      0.000       0.127       0.308
+hot_days_gt80f    -0.4013      0.005    -76.468      0.000      -0.412      -0.391
+==============================================================================
+Omnibus:                        2.037   Durbin-Watson:                   0.631
+Prob(Omnibus):                  0.361   Jarque-Bera (JB):                1.509
+Skew:                           0.084   Prob(JB):                        0.470
+Kurtosis:                       2.422   Cond. No.                         15.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
