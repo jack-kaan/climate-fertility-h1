@@ -1,0 +1,21 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Common Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependency directories
+node_modules/
+
+# OS noise
+Thumbs.db
+.DS_Store
